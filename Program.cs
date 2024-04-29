@@ -1,51 +1,51 @@
-﻿// // Задача 1: Задайте значения M и N. Напишите программу, 
-// // которая выведет все натуральные числа в промежутке 
-// // от M до N. Использовать рекурсию, не использовать циклы.
+﻿// Задача 1: Задайте значения M и N. Напишите программу, 
+// которая выведет все натуральные числа в промежутке 
+// от M до N. Использовать рекурсию, не использовать циклы.
 
-// void FromMtoN(int m, int n)
-// {
-//     if (m > n)
-//     {
-//         FromMtoN(m - 1, n);
-//         System.Console.Write(m + " ");
-//     }
-//     else if (n > m)
-//     {
-//         FromMtoN(m, n - 1);
-//         System.Console.Write(n + " ");
-//     }
-//     else System.Console.Write(m + " ");
-// }
-// FromMtoN(1, 5);
-
-
+void FromMtoN(int m, int n)
+{
+    if (m > n)
+    {
+        FromMtoN(m - 1, n);
+        System.Console.Write(m + " ");
+    }
+    else if (n > m)
+    {
+        FromMtoN(m, n - 1);
+        System.Console.Write(n + " ");
+    }
+    else System.Console.Write(m + " ");
+}
+FromMtoN(1, 5);
 
 
 
-// // Задача 2: Напишите программу вычисления функции 
-// // Аккермана с помощью рекурсии. Даны два неотрицательных 
-// // числа m и n.
 
-// static int Ackermann(int n, int m)
-// {
-//     if (n == 0)
-//     {
-//         Console.WriteLine($"если n == 0 - {n}, {m}");
-//         return m+=1;
-//     }
-//     else if (m == 0)
-//     {
-//         Console.WriteLine($"если m == 0 - {n}, {m}");
-//         return Ackermann(n - 1, 1);
-//     }
-//     else
-//     {
-//         Console.WriteLine($"иначе - {n}, {m}");
-//         return Ackermann(n - 1, Ackermann(n, m - 1));
-//     }
-// }
 
-// System.Console.WriteLine(Ackermann(2,2));
+// Задача 2: Напишите программу вычисления функции 
+// Аккермана с помощью рекурсии. Даны два неотрицательных 
+// числа m и n.
+
+static int Ackermann(int n, int m)
+{
+    if (n == 0)
+    {
+        Console.WriteLine($"если n == 0 - {n}, {m}");
+        return m+=1;
+    }
+    else if (m == 0)
+    {
+        Console.WriteLine($"если m == 0 - {n}, {m}");
+        return Ackermann(n - 1, 1);
+    }
+    else
+    {
+        Console.WriteLine($"иначе - {n}, {m}");
+        return Ackermann(n - 1, Ackermann(n, m - 1));
+    }
+}
+
+System.Console.WriteLine(Ackermann(2,2));
 
 
 
