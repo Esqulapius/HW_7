@@ -30,17 +30,14 @@ static int Ackermann(int n, int m)
 {
     if (n == 0)
     {
-        Console.WriteLine($"если n == 0 - {n}, {m}");
         return m+=1;
     }
     else if (m == 0)
     {
-        Console.WriteLine($"если m == 0 - {n}, {m}");
         return Ackermann(n - 1, 1);
     }
     else
     {
-        Console.WriteLine($"иначе - {n}, {m}");
         return Ackermann(n - 1, Ackermann(n, m - 1));
     }
 }
