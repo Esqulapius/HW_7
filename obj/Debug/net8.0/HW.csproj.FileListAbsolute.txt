@@ -1,0 +1,14 @@
+D:\GB studying\Lesson_7\HW\bin\Debug\net8.0\HW.exe
+D:\GB studying\Lesson_7\HW\bin\Debug\net8.0\HW.deps.json
+D:\GB studying\Lesson_7\HW\bin\Debug\net8.0\HW.runtimeconfig.json
+D:\GB studying\Lesson_7\HW\bin\Debug\net8.0\HW.dll
+D:\GB studying\Lesson_7\HW\bin\Debug\net8.0\HW.pdb
+D:\GB studying\Lesson_7\HW\obj\Debug\net8.0\HW.GeneratedMSBuildEditorConfig.editorconfig
+D:\GB studying\Lesson_7\HW\obj\Debug\net8.0\HW.AssemblyInfoInputs.cache
+D:\GB studying\Lesson_7\HW\obj\Debug\net8.0\HW.AssemblyInfo.cs
+D:\GB studying\Lesson_7\HW\obj\Debug\net8.0\HW.csproj.CoreCompileInputs.cache
+D:\GB studying\Lesson_7\HW\obj\Debug\net8.0\HW.dll
+D:\GB studying\Lesson_7\HW\obj\Debug\net8.0\refint\HW.dll
+D:\GB studying\Lesson_7\HW\obj\Debug\net8.0\HW.pdb
+D:\GB studying\Lesson_7\HW\obj\Debug\net8.0\HW.genruntimeconfig.cache
+D:\GB studying\Lesson_7\HW\obj\Debug\net8.0\ref\HW.dll
